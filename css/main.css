@@ -1,8 +1,25 @@
 body {
-  color: #000;
-  font-family: sans-serif; }
+  color: #333;
+  font-family: Roboto, sans-serif;
+  font-size: 13px; }
 
-p {
-  color: #FF0000; }
+.header {
+  background: #333;
+  color: #FFF; }
+
+.list-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .list-menu li {
+    display: inline-block; }
+  .list-menu a {
+    padding: 5px 10px; }
+    .list-menu a :hover {
+      background: #000; }
+
+.barra {
+  background: #4cae4c;
+  padding: 50px 0; }
 
 /*# sourceMappingURL=main.css.map */
